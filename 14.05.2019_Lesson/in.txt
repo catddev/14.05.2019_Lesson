@@ -1,0 +1,4 @@
+Simple rectangle# 1 1 12 14
+Triangle# 3 4 10
+Simple rectangle# 5 8 20 25
+Circle# 7 7 18
