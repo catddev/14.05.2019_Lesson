@@ -27,11 +27,10 @@ int main() {
 	// !!! когда обращаемся к методу через указатель обязательно использовать ссылку ->, а не "."
 
 	ifstream in_file("in.txt");
-	double x, y, a, b;
 	string str;
 	
 	vector<Shape*> figures2;
-	Shape *sp2 = new rectangle;
+	Shape *sp2;
 	while (!in_file.eof()) {
 		getline(in_file, str, '#');//считывание строки с файла
 		if (str == "Simple rectangle") {
