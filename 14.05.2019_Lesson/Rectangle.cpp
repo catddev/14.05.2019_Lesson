@@ -1,4 +1,4 @@
-#include "rectangle.h"
+ï»¿#include "rectangle.h"
 
 rectangle::rectangle() :Shape()//or Shape(0, 0), shape constructor 
 {
@@ -6,7 +6,7 @@ rectangle::rectangle() :Shape()//or Shape(0, 0), shape constructor
 	b = 0;
 }
 
-rectangle::rectangle(double x, double y, double a, double b):Shape(x,y)//âûçîâ êîíñòðóêòîðà ðîäèòåëüñêîãî êëàññà
+rectangle::rectangle(double x, double y, double a, double b):Shape(x,y)//Ð²Ñ‹Ð·Ð¾Ð² ÐºÐ¾Ð½ÑÑ‚Ñ€ÑƒÐºÑ‚Ð¾Ñ€Ð° Ñ€Ð¾Ð´Ð¸Ñ‚ÐµÐ»ÑŒÑÐºÐ¾Ð³Ð¾ ÐºÐ»Ð°ÑÑÐ°
 {
 	this->a = a;
 	this->b = b;
@@ -30,7 +30,7 @@ double rectangle::area()
 void rectangle::show()
 {
 	Shape::show();
-	std::cout << a << " " << b << std::endl;//std:: åñëè íå óêàçûâàòü ñâåðõó namespace std
+	std::cout << a << " " << b << std::endl;//std:: ÐµÑÐ»Ð¸ Ð½Ðµ ÑƒÐºÐ°Ð·Ñ‹Ð²Ð°Ñ‚ÑŒ ÑÐ²ÐµÑ€Ñ…Ñƒ namespace std
 }
 
 istream & operator>>(istream & is, rectangle & obj)

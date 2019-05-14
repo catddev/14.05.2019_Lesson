@@ -1,4 +1,4 @@
-#pragma once
+ï»¿#pragma once
 #include"Shape.h"
 
 class rectangle: public Shape {
@@ -12,7 +12,7 @@ public:
 	void setB(double b);
 	//void operator()(rectangle &obj);
 
-	double area();//ïîëèìîðôìèçì ðàáîòàåò òîëüêî òîãäà, êîãäà íàçâàíèÿ ìåòîäîâ äî÷åðíåãî è ðîäèòåëüñêîãî êëàññà àáñîëþòíî èäåíòè÷íû
+	double area();//Ð¿Ð¾Ð»Ð¸Ð¼Ð¾Ñ€Ñ„Ð¼Ð¸Ð·Ð¼ Ñ€Ð°Ð±Ð¾Ñ‚Ð°ÐµÑ‚ Ñ‚Ð¾Ð»ÑŒÐºÐ¾ Ñ‚Ð¾Ð³Ð´Ð°, ÐºÐ¾Ð³Ð´Ð° Ð½Ð°Ð·Ð²Ð°Ð½Ð¸Ñ Ð¼ÐµÑ‚Ð¾Ð´Ð¾Ð² Ð´Ð¾Ñ‡ÐµÑ€Ð½ÐµÐ³Ð¾ Ð¸ Ñ€Ð¾Ð´Ð¸Ñ‚ÐµÐ»ÑŒÑÐºÐ¾Ð³Ð¾ ÐºÐ»Ð°ÑÑÐ° Ð°Ð±ÑÐ¾Ð»ÑŽÑ‚Ð½Ð¾ Ð¸Ð´ÐµÐ½Ñ‚Ð¸Ñ‡Ð½Ñ‹
 	void show();
 
 	friend istream& operator>>(istream& is, rectangle& obj);

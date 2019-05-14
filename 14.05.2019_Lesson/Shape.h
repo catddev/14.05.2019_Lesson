@@ -1,4 +1,4 @@
-#pragma once
+п»ї#pragma once
 #include<iostream>
 #include<string>
 using namespace std;
@@ -19,7 +19,7 @@ public:
 	void setType(string type);
 	string getType();
 
-	//virtual используется для ДИНАМИЧЕСКОЙ ПРИВЯЗКИ, составляет таблицу сопоставлений и будет вызывать нужную версию для дочернего класса
+	//virtual РёСЃРїРѕР»СЊР·СѓРµС‚СЃСЏ РґР»СЏ Р”РРќРђРњРР§Р•РЎРљРћР™ РџР РР’РЇР—РљР, СЃРѕСЃС‚Р°РІР»СЏРµС‚ С‚Р°Р±Р»РёС†Сѓ СЃРѕРїРѕСЃС‚Р°РІР»РµРЅРёР№ Рё Р±СѓРґРµС‚ РІС‹Р·С‹РІР°С‚СЊ РЅСѓР¶РЅСѓСЋ РІРµСЂСЃРёСЋ РґР»СЏ РґРѕС‡РµСЂРЅРµРіРѕ РєР»Р°СЃСЃР°
 	virtual double area();//every shape's area counts differently
 	virtual void show();
 };
